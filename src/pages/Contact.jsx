@@ -23,14 +23,12 @@ const Contact = () => {
     <div id='Contact'>
       <title>Contact</title>
       <div className='hero'>
-        <div className='hero-content flex-col lg:flex-row-reverse'>
-          <div className='p-10 text-center lg:text-left'>
-            <h2>Contact Us!</h2>
-            <p className='py-6'>
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-              exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
-            </p>
-          </div>
+        <div className='flex w-1/2 flex-col items-center gap-10 p-10'>
+          <h2>Contact Us!</h2>
+          <p className='py-6'>
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+          </p>
           <form
             className='card bg-base-300 w-full max-w-lg shrink-0 shadow-2xl'
             onSubmit={handleSubmit}

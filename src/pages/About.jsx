@@ -5,12 +5,8 @@ const About = () => {
     <div id='About'>
       <title>About Us</title>
       <article>
-        <div className='flex'>
-          <figure className='w-1/2'>
-            <img src={about_1} alt='' className='rounded-xl shadow-2xl' />
-            <figcaption>untertitel</figcaption>
-          </figure>
-          <div className='w-1/2 p-10'>
+        <div className='flex flex-col items-center p-5'>
+          <div className='flex w-1/2 flex-col items-center gap-10 p-10'>
             <h2>About Us</h2>
             <p className='py-6'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, sed veniam? Sed
@@ -21,6 +17,10 @@ const About = () => {
               temporibus praesentium cumque quas.
             </p>
           </div>
+          <figure className='w-1/2'>
+            <img src={about_1} alt='' className='rounded-xl shadow-2xl' />
+            <figcaption>untertitel</figcaption>
+          </figure>
         </div>
       </article>
     </div>
