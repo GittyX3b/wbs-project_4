@@ -25,7 +25,7 @@ const Contact = () => {
       <div className='hero'>
         <div className='hero-content flex-col lg:flex-row-reverse'>
           <div className='p-10 text-center lg:text-left'>
-            <h2 className='text-5xl font-bold'>Contact Us!</h2>
+            <h2>Contact Us!</h2>
             <p className='py-6'>
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
               exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
