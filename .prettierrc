@@ -1,9 +1,15 @@
 {
-  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "printWidth": 100,
+  "importOrder": [
+    "^@(.*)$",
+    "^@layouts/(.*)$",
+    "^@pages/(.*)$",
+    "^@components/(.*)$",
+    "^@assets/(.*)$"
+  ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
-  "plugins": [
-    "@trivago/prettier-plugin-sort-imports",
-    "prettier-plugin-tailwindcss"
-  ]
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"]
 }
