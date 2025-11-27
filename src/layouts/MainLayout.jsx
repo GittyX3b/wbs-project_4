@@ -4,9 +4,9 @@ import { Footer, Header } from '@components';
 
 const MainLayout = () => {
   return (
-    <div id='MainLayout' className='flex min-h-screen w-full flex-col'>
+    <div id='MainLayout' className='bg-base-200 flex min-h-screen w-full flex-col'>
       <Header />
-      <main className='maxwidth-1200 m-auto w-full flex-1'>
+      <main className='maxwidth-1200 m-auto w-full flex-1 p-10'>
         <Outlet />
       </main>
       <Footer />

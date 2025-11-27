@@ -8,9 +8,9 @@ const Header = () => {
       <div className='maxwidth-1200 flex grow items-end justify-between p-5'>
         <div id='header-left' className='flex items-end gap-5'>
           <img src={company_logo_xs} className='' />
-          <company_name className='font-[Gabarito] text-[2.5rem]'>Hip City Trips</company_name>
+          <span className='company-name text-[2.5rem]'>Hip City Trips</span>
         </div>
-        <nav id='header-right' className='flex gap-8 text-xl'>
+        <nav id='header-right' className='hidden gap-8 text-xl md:flex'>
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/about'>About</NavLink>
           <NavLink to='/destination' className={({ isActive }) => (isActive ? 'active' : '')}>
