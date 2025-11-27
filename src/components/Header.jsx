@@ -4,11 +4,11 @@ import company_logo_xs from '@assets/images/company-logo-xs.png';
 
 const Header = () => {
   return (
-    <header className='sticky top-0 z-10 flex w-full justify-center border-b-2 bg-yellow-400 text-green-800 shadow-md'>
+    <header className='sticky top-0 z-10 flex w-full justify-center border-b border-zinc-400 bg-yellow-400 text-green-800 shadow-md'>
       <div className='maxwidth-1200 flex grow items-end justify-between p-5'>
         <div id='header-left' className='flex items-end gap-5'>
           <img src={company_logo_xs} className='' />
-          <company className='font-[Gabarito] text-[2.5rem]'>Hip City Trips</company>
+          <company_name className='font-[Gabarito] text-[2.5rem]'>Hip City Trips</company_name>
         </div>
         <nav id='header-right' className='flex gap-8 text-xl'>
           <NavLink to='/'>Home</NavLink>

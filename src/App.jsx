@@ -1,9 +1,7 @@
-import MainLayout from '@layouts/MainLayout';
-import About from '@pages/About';
-import Contact from '@pages/Contact';
-import Destination from '@pages/Destination';
-import Home from '@pages/Home';
 import { Route, Routes } from 'react-router';
+
+import { MainLayout } from '@layouts';
+import { About, Contact, Destination, Home } from '@pages';
 
 function App() {
   return (
