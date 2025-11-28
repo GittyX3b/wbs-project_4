@@ -8,7 +8,7 @@ const InputText = ({ label, placeholder }) => {
   };
 
   return (
-    <div className='form-control w-full max-w-xs'>
+    <div className='form-control w-full'>
       <label className='label' htmlFor='simple-text-input'>
         <span className='label-text font-medium'>{label}</span>
       </label>
