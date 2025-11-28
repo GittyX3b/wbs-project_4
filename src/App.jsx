@@ -1,7 +1,8 @@
+// App.jsx
 import { Route, Routes } from 'react-router';
 
 import { MainLayout } from '@layouts';
-import { About, Contact, Destination, Home, NotFound } from '@pages';
+import { About, Contact, Destination, Home, Location, NotFound } from '@pages';
 
 function App() {
   return (
@@ -11,9 +12,8 @@ function App() {
         <Route element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path='home' element={<Home />} />
-          <Route path='destination' element={<Destination />}>
-            <Route path=':slug' element={<Location />} />
-          </Route>
+          <Route path='destination' element={<Destination />} />
+          <Route path='destination/:slug' element={<Location />} />
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
           <Route path='*' element={<NotFound />} />

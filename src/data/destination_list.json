@@ -1,100 +1,120 @@
 [
   {
+    "id": 0,
     "name": "Berlin",
     "description": "Join global hackathons and explore Europe’s startup capital.",
     "image": "https://images.pexels.com/photos/2570063/pexels-photo-2570063.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 1,
     "name": "Tokyo",
     "description": "Experience cutting-edge technology and ancient traditions side-by-side in this sprawling metropolis.",
     "image": "https://images.pexels.com/photos/248195/pexels-photo-248195.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 2,
     "name": "New York",
     "description": "The city that never sleeps offers unparalleled networking and finance opportunities.",
     "image": "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 3,
     "name": "London",
     "description": "A global financial hub known for its rich history and vibrant tech scene.",
     "image": "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 4,
     "name": "Singapore",
     "description": "A leading innovation hub in Southeast Asia with a focus on smart city technology.",
     "image": "https://images.pexels.com/photos/4006611/pexels-photo-4006611.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 5,
     "name": "San Francisco",
     "description": "The heart of Silicon Valley, driving global advancements in AI and software.",
     "image": "https://images.pexels.com/photos/1796715/pexels-photo-1796715.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 6,
     "name": "Shanghai",
     "description": "China's commercial powerhouse, rapidly expanding its fintech and e-commerce sectors.",
     "image": "https://images.pexels.com/photos/2227942/pexels-photo-2227942.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 7,
     "name": "Bangalore",
     "description": "India's 'Silicon Valley,' home to major IT services and engineering centers.",
     "image": "https://images.pexels.com/photos/1572979/pexels-photo-1572979.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 8,
     "name": "Tel Aviv",
     "description": "A strong ecosystem for cybersecurity, biotech, and hardware innovation.",
     "image": "https://images.pexels.com/photos/17291323/pexels-photo-17291323.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 9,
     "name": "Sydney",
     "description": "A major hub for regional finance and media with a growing startup culture.",
     "image": "https://images.pexels.com/photos/2193300/pexels-photo-2193300.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 10,
     "name": "Boston",
     "description": "World-renowned for its biotech, life sciences, and academic research institutions.",
     "image": "https://images.pexels.com/photos/776030/pexels-photo-776030.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 11,
     "name": "Toronto",
     "description": "Canada's largest tech corridor, specializing in AI, deep learning, and financial services.",
     "image": "https://images.pexels.com/photos/1089304/pexels-photo-1089304.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 12,
     "name": "Paris",
     "description": "Home to Station F, Europe's largest startup campus, focusing on deep tech and design.",
     "image": "https://images.pexels.com/photos/2082103/pexels-photo-2082103.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 13,
     "name": "Austin",
     "description": "A booming technology center in the US, often called 'Silicon Hills,' attracting major tech relocations.",
     "image": "https://images.pexels.com/photos/5439775/pexels-photo-5439775.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 14,
     "name": "Seoul",
     "description": "A global leader in mobile technology, gaming, and advanced manufacturing.",
     "image": "https://images.pexels.com/photos/2848492/pexels-photo-2848492.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 15,
     "name": "Dublin",
     "description": "A key European headquarters for major US tech giants, known for its low corporate tax rate.",
     "image": "https://images.pexels.com/photos/2416653/pexels-photo-2416653.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 16,
     "name": "Amsterdam",
     "description": "A center for creative industries, digital media, and green technology.",
     "image": "https://images.pexels.com/photos/2026451/pexels-photo-2026451.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 17,
     "name": "Beijing",
     "description": "China's political and innovation core, specializing in state-backed AI research and development.",
     "image": "https://images.pexels.com/photos/10578436/pexels-photo-10578436.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 18,
     "name": "Stockholm",
     "description": "Known for successful 'unicorns' and a strong focus on digital health and music technology.",
     "image": "https://images.pexels.com/photos/2377441/pexels-photo-2377441.jpeg?auto=compress&cs=tinysrgb&w=800"
   },
   {
+    "id": 19,
     "name": "São Paulo",
     "description": "Latin America's largest economic hub, with a vibrant and growing fintech sector.",
     "image": "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=800"

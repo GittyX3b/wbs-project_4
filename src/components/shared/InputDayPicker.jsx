@@ -7,7 +7,7 @@ import 'react-day-picker/dist/style.css';
 const INPUT_FORMAT = 'PPP';
 const today = startOfToday(); // <-- Get the start of the current day
 
-const InputDayPicker = ({ title }) => {
+const InputDayPicker = ({ label }) => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [inputValue, setInputValue] = useState(format(new Date(), INPUT_FORMAT));
   const [isPickerVisible, setIsPickerVisible] = useState(false);
@@ -42,9 +42,9 @@ const InputDayPicker = ({ title }) => {
   }, [pickerRef]);
 
   return (
-    <div ref={pickerRef} className='form-control relative flex w-full max-w-xs flex-col'>
+    <div ref={pickerRef} className='form-control relative flex w-full flex-col'>
       <label className='label'>
-        <span className='label-text'>{title}</span>
+        <span className='label-text'>{label}</span>
       </label>
 
       <input
@@ -54,7 +54,7 @@ const InputDayPicker = ({ title }) => {
         onFocus={handleInputFocus}
         onChange={() => {}}
         readOnly
-        className='input input-bordered grow cursor-pointer' // Added input-bordered for DaisyUI look
+        className='input input-bordered w-full cursor-pointer' // Added input-bordered for DaisyUI look
       />
 
       {isPickerVisible && (
