@@ -20147,7 +20147,10 @@ const Location = () => {
   ] });
 };
 const NotFound = () => {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "not found" });
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { padding: "2rem", textAlign: "center" }, children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { children: "404 – Page Not Found" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "The page you’re looking for doesn’t exist." })
+  ] });
 };
 function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
