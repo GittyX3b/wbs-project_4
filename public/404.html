@@ -4,11 +4,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
-
     <script>
-      // Redirect any unknown path back to SPA index.html
+      // Redirect unknown paths back to SPA index.html
+      const repoBase = '/wbs-project_4';
       const path = window.location.pathname;
-      window.location.replace('https://gittyx3b.github.io/' + path);
+      if (!window.location.pathname.endsWith('index.html')) {
+        window.location.replace(repoBase + '/index.html' + path);
+      }
     </script>
   </head>
   <body></body>
