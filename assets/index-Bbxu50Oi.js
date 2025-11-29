@@ -20150,10 +20150,38 @@ const Home = () => {
           ) })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex w-full justify-center gap-2 py-2", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#item1", className: "btn btn-xs", children: "1" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#item2", className: "btn btn-xs", children: "2" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#item3", className: "btn btn-xs", children: "3" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#item4", className: "btn btn-xs", children: "4" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              onClick: () => document.getElementById("item1").scrollIntoView({ behavior: "smooth" }),
+              className: "btn btn-xs",
+              children: "1"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              onClick: () => document.getElementById("item2").scrollIntoView({ behavior: "smooth" }),
+              className: "btn btn-xs",
+              children: "2"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              onClick: () => document.getElementById("item3").scrollIntoView({ behavior: "smooth" }),
+              className: "btn btn-xs",
+              children: "3"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              onClick: () => document.getElementById("item4").scrollIntoView({ behavior: "smooth" }),
+              className: "btn btn-xs",
+              children: "4"
+            }
+          )
         ] })
       ] })
     ] })
