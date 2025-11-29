@@ -6,10 +6,10 @@
     <title>Redirecting...</title>
 
     <script>
-          // Redirect any unknown path back to SPA index.html
-      const repoBase = import.meta.env.BASE_URL; // Vite automatically sets this
+      // Redirect any unknown path back to SPA index.html
+      const repoBase = 'https://gittyx3b.github.io/';
       const path = window.location.pathname;
-      window.location.replace(repoBase + 'index.html' + path);
+      window.location.replace(repoBase + path);
     </script>
   </head>
   <body></body>
