@@ -4,10 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
+
     <script>
-      // Redirect any unknown path back to SPA index.html
+          // Redirect any unknown path back to SPA index.html
+      const repoBase = import.meta.env.BASE_URL; // Vite automatically sets this
       const path = window.location.pathname;
-      window.location.replace('/' + path);
+      window.location.replace(repoBase + 'index.html' + path);
     </script>
   </head>
   <body></body>
