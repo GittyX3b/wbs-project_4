@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gittyx3b.github.io/wbs-project_4",
+  "homepage": "https://gittyx3b.github.io/wbs-project_4/",
   "type": "module",
   "scripts": {
     "dev": "vite",
