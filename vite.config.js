@@ -9,6 +9,7 @@ const __filename = fileURLToPath(import.meta.url); // get the resolved path to t
 const __dirname = path.dirname(__filename); // get the name of the directory
 
 export default defineConfig({
+  base: '/wbs-project_4/',
   build: {
     outDir: 'dist',
     emptyOutDir: false,
