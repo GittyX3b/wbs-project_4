@@ -27,4 +27,7 @@ export default defineConfig({
       '@assets': path.resolve(__dirname, './src/assets'),
     },
   },
+  server: {
+    historyApiFallback: true,
+  },
 });
